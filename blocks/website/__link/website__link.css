@@ -1,0 +1,12 @@
+.website__link {
+  color: white;
+  text-decoration: underline;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.website__link:hover {
+  cursor: pointer;
+}

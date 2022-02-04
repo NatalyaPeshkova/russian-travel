@@ -1,0 +1,36 @@
+.intro {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 286px 92px 48px;
+  width: 690px;
+  height: 429px;
+}
+
+
+@media screen and (min-width: 1025px) {
+  .intro{
+    margin: 0 442px 92px 148px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .intro{
+    width: 720px;
+    height: 429px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro{
+    width: 288px;
+    height: 754px;
+    margin-bottom: 0;
+  }
+}

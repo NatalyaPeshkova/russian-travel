@@ -1,0 +1,35 @@
+.website {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 456px;
+  margin-bottom: 35px;
+  margin-left: 32px;
+}
+
+@media screen and (max-width: 769px) {
+  .website{
+    width: 352px;
+    margin-left: 28px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .website{
+    width: 288px;
+    height: 46px;
+    margin: 0;
+    margin-left: 16px;
+  }
+}

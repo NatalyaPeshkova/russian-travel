@@ -1,0 +1,45 @@
+.places {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 928px;
+  height: 3292px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 42px 0;
+  line-height: normal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+@media screen and (min-width: 1025px) {
+  .places{
+    width: 984px;
+    height: 3292px;
+    margin: 0 148px 0;
+  }
+}
+
+
+@media screen and (max-width: 769px) {
+  .places{
+    width: 720px;
+    height: 3392px;
+    margin-left: 11px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places{
+    width: 320px;
+    height: 5177px;
+    margin: 0;
+  }
+}

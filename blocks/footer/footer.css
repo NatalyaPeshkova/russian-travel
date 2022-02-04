@@ -1,0 +1,25 @@
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 928px;
+  height: 18px;
+  margin: 0 48px 24px 48px;
+  font-weight: normal;
+}
+
+
+@media screen and (min-width: 1025px) {
+  .footer{
+    width: 1184px;
+    height: 18px;
+  }
+}
