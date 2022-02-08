@@ -1,7 +1,5 @@
 .page {
   font-family: 'Inter', Arial, sans-serif;
-  font-weight: normal;
-  font-weight: bold;
   background-color:#2a2c2f;
   max-width: 1280px;
   min-width: 320px;
@@ -9,6 +7,7 @@
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 769px) {
@@ -19,7 +18,7 @@
 
 @media screen and (max-width: 425px) {
   .page{
-    width: 320px;
+    max-width: 320px;
     height: 10023px;
   }
 }

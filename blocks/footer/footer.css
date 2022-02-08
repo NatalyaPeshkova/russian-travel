@@ -23,3 +23,20 @@
     height: 18px;
   }
 }
+
+
+@media screen and (max-width: 769px) {
+  .footer{
+    width: 720px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 186px;
+    height: 310px;
+  }
+}
