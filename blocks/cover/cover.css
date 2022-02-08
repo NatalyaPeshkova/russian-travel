@@ -13,7 +13,6 @@
   -ms-flex-align: center;
   align-items: center;
   width: 1024px;
-  height: 640px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   color: white;
@@ -46,7 +45,6 @@
 @media screen and (min-width: 1025px) {
   .cover{
     width: 1184px;
-    height: 740px;
     margin-left: 48px;
     margin-right: 48px;
     top: 92px;
@@ -58,7 +56,6 @@
 @media screen and (max-width: 769px) {
   .cover{
     width: 768px;
-    height: 480px;
     margin-left: 0;
     margin-right: 0;
     top: 92px;
@@ -71,7 +68,6 @@
 @media screen and (max-width: 425px) {
   .cover{
     width: 320px;
-    height: 200px;
     top: 66px;
     margin-bottom: 126px;
   }

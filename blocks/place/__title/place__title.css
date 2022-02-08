@@ -9,7 +9,6 @@
   font-size: 72px;
   font-weight: bold;
   line-height: 76px;
-  max-height: 152px;
   width: 440px;
   text-align: left;
   -webkit-margin-before: 0;
@@ -27,7 +26,6 @@
 @media screen and (max-width: 769px) {
   .place__title{
     width: 340px;
-    max-height: 92px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -36,7 +34,6 @@
 @media screen and (max-width: 425px){
   .place__title{
     width: 288px;
-    max-height: 35px;
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 32px;
