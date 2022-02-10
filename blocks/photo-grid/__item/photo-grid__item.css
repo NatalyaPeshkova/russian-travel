@@ -1,7 +1,7 @@
 .photo-grid__item {
-padding: 0;
-height: 225px;
-width: 300px;
+  padding: 0;
+  height: 225px;
+  width: 300px;
 }
 
 .photo-grid__item:nth-of-type(1){
