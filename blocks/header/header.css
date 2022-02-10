@@ -12,7 +12,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 52px;
   margin-top: 28px;
   margin-left: 48px;
   margin-right: 48px;
@@ -22,7 +21,6 @@
 @media screen and (min-width: 1025px) {
   .header{
     width: 1184px;
-    height: 52px;
   }
 }
 
@@ -30,7 +28,6 @@
 @media screen and (max-width: 769px) {
   .header{
     width: 720px;
-    height: 52px;
     margin-left: 24px;
     margin-right: 24px;
   }
@@ -39,7 +36,6 @@
 @media screen and (max-width: 425px) {
   .header{
     width: 288px;
-    height: 42px;
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;

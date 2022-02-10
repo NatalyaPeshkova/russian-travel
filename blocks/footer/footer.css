@@ -11,7 +11,6 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 928px;
-  height: 18px;
   margin: 0 48px 24px 48px;
   font-weight: normal;
 }
@@ -20,7 +19,6 @@
 @media screen and (min-width: 1025px) {
   .footer{
     width: 1184px;
-    height: 18px;
   }
 }
 
@@ -28,7 +26,6 @@
 @media screen and (max-width: 769px) {
   .footer{
     width: 720px;
-    height: 18px;
   }
 }
 
@@ -37,6 +34,5 @@
     flex-direction: column;
     justify-content: space-between;
     width: 186px;
-    height: 310px;
   }
 }

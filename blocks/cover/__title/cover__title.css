@@ -3,7 +3,6 @@
   font-weight: bold;
   line-height: 76px;
   width: 560px;
-  min-height: 152px;
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -26,7 +25,6 @@
   -ms-flex-direction: column;
   flex-direction: column;
   width: 250px;
-  min-height: 70px;
   font-size: 32px;
   line-height: 35px;
   text-align: center;

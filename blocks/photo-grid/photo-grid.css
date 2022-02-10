@@ -31,7 +31,6 @@
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(6, auto);
   width: 720px;
-  height: 1664px;
   margin: 88px 24px 88px;
   align-self: center;
   }
@@ -43,7 +42,6 @@
   grid-template-columns: repeat(1, auto);
   grid-template-rows: repeat(12, auto);
   width: 288px;
-  height: 2724px;
   margin-top: 64px;
   margin-left: 16px;
   margin-right: 16px;

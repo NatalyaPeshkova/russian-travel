@@ -9,7 +9,6 @@
   flex-direction: column;
   margin: 0 286px 92px 48px;
   width: 690px;
-  height: 429px;
 }
 
 
@@ -22,7 +21,6 @@
 @media screen and (max-width: 769px) {
   .intro{
     width: 720px;
-    height: 429px;
     margin-left: 24px;
   }
 }
@@ -30,7 +28,6 @@
 @media screen and (max-width: 425px) {
   .intro{
     width: 288px;
-    height: 754px;
     margin-bottom: 0;
   }
 }

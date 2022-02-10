@@ -8,7 +8,6 @@
   flex-direction: row;
   color: white;
   width: 928px;
-  height: 640px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 59px 0 0;
@@ -25,15 +24,13 @@
 @media screen and (min-width: 1025px) {
   .place{
     width: 984px;
-    height: 660px;
-  }
+   }
 }
 
 
 @media screen and (max-width: 769px) {
   .place{
     width: 720px;
-    height: 581px;
     margin: 0;
     margin-bottom: 73px;
    }
@@ -50,7 +47,6 @@
 @media screen and (max-width: 425px) {
   .place{
     width: 320px;
-    height: 1042px;
   }
   .place:nth-of-type(1){
     margin-bottom: 50px;

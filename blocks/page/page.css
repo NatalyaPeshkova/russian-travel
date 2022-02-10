@@ -7,18 +7,11 @@
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  overflow-x: hidden;
-}
-
-@media screen and (max-width: 769px) {
-  .page{
-    height: 6855px;
-  }
+  /*overflow-x: hidden;*/
 }
 
 @media screen and (max-width: 425px) {
   .page{
     max-width: 320px;
-    height: 10023px;
   }
 }
