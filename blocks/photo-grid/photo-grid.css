@@ -28,8 +28,8 @@
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
     max-width: 928px;
-    width: 100%;
-    margin: 88px 0px 88px;
+    width: 95%;
+    margin: 88px auto 88px;
     align-self: center;
     padding: 0;
     box-sizing: border-box;
@@ -41,10 +41,10 @@
   .photo-grid {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
-    margin: 88px 0 88px;
+    margin: 88px auto 88px;
     align-self: center;
     max-width: 720px;
-    width: 100%;
+    width: 95%;
     padding: 0;
     box-sizing: border-box;
   }
