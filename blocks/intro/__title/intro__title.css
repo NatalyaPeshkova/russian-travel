@@ -2,7 +2,7 @@
   font-size: 54px;
   font-weight: bold;
   line-height: 58px;
-  width: 690px;
+  max-width: 690px;
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 769px) {
   .intro__title{
-    width: 720px;
+    max-width: 720px;
    }
 }
 

@@ -14,13 +14,13 @@
   align-items: center;
   color: white;
   margin: 48px 48px 92px;
-  width: 928px;
+  max-width: 928px;
 }
 
 @media screen and (min-width: 1025px) {
   .lead{
     margin: 56px 148px 92px;
-    width: 984px;
+    max-width: 984px;
   }
 }
 
@@ -28,13 +28,13 @@
 @media screen and (max-width: 769px) {
   .lead{
     margin: 48px 0 92px;
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead{
     margin: 48px 0 64px;
-    width: 320px;
+    max-width: 320px;
   }
 }

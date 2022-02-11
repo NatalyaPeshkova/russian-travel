@@ -12,14 +12,14 @@
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  width: 456px;
+  max-width: 456px;
   margin-bottom: 35px;
   margin-left: 32px;
 }
 
 @media screen and (max-width: 769px) {
   .website{
-    width: 352px;
+    max-width: 352px;
     margin-left: 28px;
   }
 }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 425px) {
   .website{
-    width: 288px;
+    max-width: 288px;
     margin: 0;
     margin-left: 16px;
   }

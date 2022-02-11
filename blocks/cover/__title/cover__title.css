@@ -2,7 +2,7 @@
   font-size: 72px;
   font-weight: bold;
   line-height: 76px;
-  width: 560px;
+  max-width: 560px;
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -24,7 +24,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 250px;
+  max-width: 250px;
   font-size: 32px;
   line-height: 35px;
   text-align: center;

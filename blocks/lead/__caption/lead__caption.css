@@ -1,7 +1,7 @@
 .lead__caption {
   font-size: 10px;
   margin: 8px 818px 0 0;
-  width: 158px;
+  max-width: 158px;
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;

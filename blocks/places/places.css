@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 928px;
+  max-width: 928px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 1025px) {
   .places{
-    width: 984px;
+    max-width: 984px;
     margin: 0 148px 0;
   }
 }
@@ -28,14 +28,14 @@
 
 @media screen and (max-width: 769px) {
   .places{
-    width: 720px;
+    max-width: 720px;
     margin-left: 11px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places{
-    width: 320px;
+    max-width: 320px;
     margin: 0;
   }
 }

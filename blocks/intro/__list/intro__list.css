@@ -2,7 +2,7 @@
   font-size: 12px;
   font-weight: normal;
   line-height: 18px;
-  width: 690px;
+  max-width: 690px;
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -20,11 +20,11 @@
 @media screen and (max-width: 769px) {
   .intro__list {
     width: 720px;
-    }
+  }
 }
 
 @media screen and (max-width: 425px) {
   .intro__list{
-    width: 288px;
-    }
+   width: 288px;
+  }
 }

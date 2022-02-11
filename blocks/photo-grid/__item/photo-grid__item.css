@@ -1,7 +1,7 @@
 .photo-grid__item {
   padding: 0;
   height: 225px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .photo-grid__item:nth-of-type(1){
@@ -86,7 +86,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .photo-grid__item{
     height: 213px;
     width: 284px;

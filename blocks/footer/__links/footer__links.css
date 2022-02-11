@@ -8,6 +8,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 158px;
-    }
+    max-width: 158px;
+  }
 }
