@@ -23,6 +23,18 @@
    }
 }
 
+@media screen and (min-width: 1025px) {
+  .intro__title{
+    max-width: 690px;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 3.4vw;
+  }
+}
+
+
 @media screen and (max-width: 1024px) {
   .intro__title{
     max-width: 690px;
@@ -44,6 +56,20 @@
     margin: 0;
     font-size: 4.5vw;
    }
+}
+
+@media screen and (max-width: 600px){
+  .intro__title{
+    width: 500px;
+    margin-left: 18px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .intro__title{
+    width: 320px;
+    margin-left: 18px;
+  }
 }
 
 @media screen and (max-width: 425px) {
