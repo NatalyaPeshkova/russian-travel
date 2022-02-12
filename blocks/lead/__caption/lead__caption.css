@@ -9,6 +9,8 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   margin-top: 8px;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
   align-self: start;
 }
 
@@ -23,4 +25,3 @@
    margin-left: 16px;
   }
 }
-

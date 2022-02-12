@@ -1,3 +1,4 @@
+
 .intro {
   color: white;
   display: -webkit-box;
@@ -23,7 +24,8 @@
   .intro{
     max-width: 720px;
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-left: 24px;
   }
 }
@@ -32,7 +34,8 @@
   .intro{
     max-width: 720px;
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-left: 24px;
   }
 }
