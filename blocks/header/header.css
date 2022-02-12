@@ -17,14 +17,14 @@
   max-width: 928px;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .header{
     max-width: 1184px;
   }
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .header{
     max-width: 720px;
     margin-left: 24px;
