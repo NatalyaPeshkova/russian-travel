@@ -20,6 +20,19 @@
   }
 }
 
+@media screen and (max-width: 600px){
+  .intro__text{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .intro__text{
+    width: 320px;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
   .intro__text{
     width: 288px;

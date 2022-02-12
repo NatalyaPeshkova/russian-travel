@@ -61,14 +61,14 @@
 @media screen and (max-width: 600px){
   .intro__title{
     width: 500px;
-    margin-left: 18px;
+
   }
 }
 
 @media screen and (max-width: 500px){
   .intro__title{
     width: 320px;
-    margin-left: 18px;
+
   }
 }
 
