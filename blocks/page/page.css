@@ -8,7 +8,6 @@
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  outline: 1px solid red;
 }
 
 @media screen and (max-width: 425px) {
