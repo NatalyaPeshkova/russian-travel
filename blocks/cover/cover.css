@@ -13,13 +13,12 @@
   -ms-flex-align: center;
   align-items: center;
   max-width: 1024px;
-  height: 640px;
+  min-height: 640px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
+  background-position:center;
   color: white;
   position: relative;
-  top: 92px;
-  right: 0;
   z-index: 0;
   margin-bottom: calc( 92px + 92px);
 }
@@ -46,24 +45,20 @@
 @media screen and (min-width: 1280px) {
   .cover{
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     margin-left: 48px;
     margin-right: 48px;
-    top: 92px;
-    bottom: 88px;
     margin-top: 92px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover{
-    max-width: 1184px;
-    height: 740px;
+    /*max-width: 1184px;
+    min-height: 740px;*/
     margin-left: 0;
     margin-right: 0;
-    top: 92px;
-    bottom: 88px;
-    margin-top: 92px;
+    /*margin-top: 92px;*/
   }
 }
 
@@ -71,11 +66,9 @@
   .cover{
     max-width: 768px;
     width: 99%;
-    height: 480px;
-    margin-left: 0;
-    margin-right: 0;
-    top: 92px;
-    bottom: 88px;
+    min-height: 480px;
+    /*margin-left: 0;
+    margin-right: 0;*/
     margin-top: 0;
     margin-bottom: calc( 88px + 92px);
   }
@@ -85,7 +78,6 @@
   .cover{
     max-width: 320px;
     width: 99%;
-    top: 66px;
     margin-bottom: 126px;
   }
 }

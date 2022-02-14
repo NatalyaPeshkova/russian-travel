@@ -21,20 +21,19 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .cover__title{
     max-width: 560px;
     font-size: 72px;
     text-align: center;
     }
-  }
+  }*/
 
   @media screen and (max-width: 600px) {
     .cover__title{
       max-width: 320px;
       font-size: 7vw;
       line-height: 35px;
-      text-align: center;
       }
     }
 
@@ -44,6 +43,5 @@
     max-width: 250px;
     font-size: 32px;
     line-height: 35px;
-    text-align: center;
     }
   }
