@@ -3,8 +3,11 @@
   padding: 0;
   height: 225px;
   max-width: 300px;
+  margin-right: 14px;
+  margin-bottom: 14px;
 }
 
+/*
 .photo-grid__item:nth-of-type(1){
   background-image: url(../../../images/photo-grid-train.jpg);
   background-size: cover;
@@ -85,6 +88,7 @@
   background-size: cover;
   margin-bottom: 0;
 }
+*/
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item{
