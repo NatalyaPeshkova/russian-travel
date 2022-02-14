@@ -24,16 +24,7 @@
   margin-right: 0;
 }
 
-@media screen and (min-width: 769px) {
-  .place__title{
-    max-width: 340px;
-    font-size: 42px;
-    line-height: 46px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 768px) {
   .place__title{
     max-width: 340px;
     font-size: 42px;

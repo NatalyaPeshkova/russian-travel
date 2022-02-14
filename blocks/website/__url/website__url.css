@@ -13,4 +13,6 @@
   -webkit-margin-end: 0;
   margin-inline-end: 0;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
