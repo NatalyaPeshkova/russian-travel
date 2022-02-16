@@ -1,7 +1,7 @@
 
 .intro__title {
-  font-size: 5vw;
-  font-weight: bold;
+  font-size: 54px;
+  font-weight: bolder;
   max-width: 690px;
   width: 95%;
   -webkit-margin-before: 0;
@@ -17,15 +17,28 @@
   padding: 0;
 }
 
+/*@media screen and (min-width: 1280px) {
+  .intro__title{
+    font-size: 54px;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   .intro__title{
-    font-size: 3.4vw;
+    font-size: 54px;
   }
 }
 
 
 @media screen and (max-width: 1024px) {
   .intro__title{
-    font-size: 4.5vw;
+    font-size: 54px;
+   }
+}
+*/
+
+@media screen and (max-width: 425px) {
+  .intro__title{
+    font-size: 32px;
    }
 }
