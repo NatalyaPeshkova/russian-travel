@@ -2,113 +2,32 @@
 .photo-grid__item {
   padding: 0;
   height: 225px;
-  max-width: 300px;
+  max-width: 99%;
   margin-right: 14px;
   margin-bottom: 14px;
 }
 
-/*
-.photo-grid__item:nth-of-type(1){
-  background-image: url(../../../images/photo-grid-train.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 14px;
-}
 
-.photo-grid__item:nth-of-type(2){
-  background-image: url(../../../images/photo-grid-atharva-tulsi.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(3){
-  background-image: url(../../../images/photo-grid-tuman.jpg);
-  background-size: cover;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(4){
-  background-image: url(../../../images/photo-grid-sochi.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(5){
-  background-image: url(../../../images/photo-grid-arisa.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(6){
-  background-image: url(../../../images/photo-grid-baikal.jpg);
-  background-size: cover;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(7){
-  background-image: url(../../../images/photo-grid-elbrus.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(8){
-  background-image: url(../../../images/photo-grid-kondratiev.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(9){
-  background-image: url(../../../images/photo-grid-kamchatka-1.jpg);
-  background-size: cover;
-  margin-bottom: 14px;
-}
-
-.photo-grid__item:nth-of-type(10){
-  background-image: url(../../../images/photo-grid-kamchatka-2.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 0;
-}
-
-.photo-grid__item:nth-of-type(11){
-  background-image: url(../../../images/photo-grid-baikal-2.jpg);
-  background-size: cover;
-  margin-right: 14px;
-  margin-bottom: 0;
-}
-
-
-.photo-grid__item:nth-of-type(12){
-  background-image: url(../../../images/photo-grid-ergaki.jpg);
-  background-size: cover;
-  margin-bottom: 0;
-}
-*/
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item{
-    height: 213px;
-    width: 284px;
+    max-width: 284px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid__item {
-     width: calc( width / 3 );
+     max-width: calc( width / 3 );
     }
   }
 
 @media screen and (max-width: 768px) {
   .photo-grid__item{
-     width: calc( width / 2 );
+     max-width: calc( width / 2 );
     }
+  }
 
-    .photo-grid__item:nth-of-type(1){
+    /*.photo-grid__item:nth-of-type(1){
       margin-right: 16px;
       margin-bottom: 16px;
 
@@ -169,16 +88,15 @@
       margin-right: 0;
       margin-bottom: 0;
   }
-}
-
+*/
 
 @media screen and (max-width: 425px) {
   .photo-grid__item{
-     width: 288px;
-     height: 216px;
+     max-width: 288px;
+   }
   }
 
-  .photo-grid__item:nth-of-type(1){
+  /*.photo-grid__item:nth-of-type(1){
     margin-bottom: 12px;
   }
 
@@ -227,3 +145,4 @@
     margin-bottom: 0;
   }
 }
+*/

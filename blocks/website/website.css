@@ -17,9 +17,9 @@
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 819px) {
   .website{
-    max-width: 352px;
+    width: 352px;
   }
 }
 

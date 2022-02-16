@@ -5,10 +5,10 @@
   color: white;
   width: 928px;
   margin-top: 79px;
-  margin-left: 48px;
-  margin-right: 48px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 105px;
-  align-self: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -17,9 +17,10 @@
     grid-template-rows: repeat(3, auto);
     max-width: 1184px;
     margin-top: 92px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 92px;
+    align-self: center;
   }
 }
 
@@ -49,6 +50,22 @@
     box-sizing: border-box;
   }
 }
+
+
+@media screen and (max-width: 500px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(12, auto);
+    max-width: 99%;
+    width: 90%;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+    align-self: center;
+  }
+}
+
 
 
 @media screen and (max-width: 425px) {
