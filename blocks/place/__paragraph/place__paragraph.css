@@ -30,6 +30,12 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .place__paragraph{
+    max-width: 360px;
+   }
+}
+
 @media screen and (min-width: 425px) {
   .place__paragraph{
     width: 100%;

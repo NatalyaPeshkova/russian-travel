@@ -26,11 +26,25 @@
    }
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .places{
-    max-width: 984px;
-    margin: 0 148px 0;
+    max-width: 928px;
+    margin: 0 59px 0 37px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .places{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .places{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
   }
 }
 
