@@ -23,8 +23,12 @@
   margin-inline-end: 0;
   margin-bottom: 48px;
   margin-right: 0;
-
   margin-right: 40px;
+}
+
+.place__title::first-line{
+  padding-right: 50px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) {
@@ -39,12 +43,12 @@
   }
 }
 
-
-@media screen and (min-width: 769px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__title{
-    max-width: 340px;
+    width: 340px;
     font-size: 42px;
     line-height: 46px;
+    margin-right: 28px;
   }
 }
 

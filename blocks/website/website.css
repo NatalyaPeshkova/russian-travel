@@ -14,8 +14,9 @@
   align-items: flex-start;
   max-width: 456px;
   margin-bottom: 35px;
-
 }
+
+
 
 @media screen and (min-width: 819px) {
   .website{
@@ -27,6 +28,8 @@
 @media screen and (max-width: 768px) {
   .website{
     width: 352px;
+    margin: 0;
+    margin-bottom: 48px;
   }
 }
 

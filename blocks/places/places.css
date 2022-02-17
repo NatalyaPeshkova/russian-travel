@@ -3,30 +3,23 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   max-width: 928px;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 42px 0;
   line-height: normal;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .places{
-    max-width: 984px;
+    /*max-width: 984px;*/
+    width: 100%;
     margin: 0 148px 0;
    }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .places{
     max-width: 928px;
     margin: 0 59px 0 37px;
