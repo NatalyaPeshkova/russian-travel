@@ -1,6 +1,5 @@
 .lead__caption {
   font-size: 10px;
-  max-width: 158px;
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -12,6 +11,7 @@
   -ms-flex-item-align: start;
   -ms-grid-row-align: start;
   align-self: start;
+  text-transform: uppercase;
   }
 
 @media screen and (max-width: 768px) {

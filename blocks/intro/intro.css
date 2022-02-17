@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 1024px) {
   .intro {
-   margin-left: 48px;
+    margin-left: 48px;
   }
 }
 
@@ -36,9 +36,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-left: 18px;
-    /*margin-right: 24px;*/
-
-  }
+   }
 }
 
 @media screen and (max-width: 500px) {

@@ -9,7 +9,6 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-
   margin: 0;
   margin-left: 48px;
   margin-right: 48px;
@@ -27,7 +26,6 @@
 
 @media screen and (max-width: 1024px) {
   .footer{
-
     width: 90%;
     padding: 0;
     -webkit-box-sizing: border-box;
