@@ -16,13 +16,13 @@
   color: white;
   }
 
-/*
+
   @media screen and (min-width: 1280px) {
     .footer__copyright{
-
+      font-size: 14px;
     }
   }
-*/
+
   @media screen and (max-width: 1024px) {
     .footer__copyright{
       font-size: 14px;

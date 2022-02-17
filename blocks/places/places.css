@@ -9,6 +9,7 @@
   margin: 0 42px 0;
   line-height: normal;
   align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1025px) {

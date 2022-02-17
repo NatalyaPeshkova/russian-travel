@@ -43,6 +43,8 @@
   .lead__subtitle{
     font-size: 16px;
     max-width: 288px;
+    line-height: 20px;
+    margin-top: 0;
 
   }
 }
