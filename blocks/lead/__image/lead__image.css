@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 768px) {
   .lead__image{
-    width: 768px;
+    max-width: 768px;
     height: 480px;
     width: 99%;
     margin-left: 0;
@@ -39,7 +39,8 @@
 
 @media screen and (max-width: 500px){
   .lead__image{
-    max-width: 100%px;
+    max-width: 99%;
+    height: 99%;
     margin-left: 0;
     margin-right: 0;
   }

@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle{
-
     width: 100%;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -31,4 +30,3 @@
     margin-top: 0;
   }
 }
-
