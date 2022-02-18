@@ -16,13 +16,8 @@
   text-decoration: underline;
 }
 
-.header__link:focus{
-  text-decoration: underline;
-}
-
 .header__link:hover{
   text-decoration: underline;
-  opacity: 0.4;
 }
 
 @media screen and (max-width: 425px) {

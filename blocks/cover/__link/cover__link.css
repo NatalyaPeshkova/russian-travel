@@ -19,4 +19,45 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
+  min-height: 640px;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__link{
+    width: 1184px;
+    min-height: 740px;
+  }
+}
+
+@media screen and (max-width: 1185px) {
+  .cover__link{
+    width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link{
+    max-width: 1024px;
+    width: 100%;
+    min-height: 640px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link{
+    max-width: 768px;
+    width: 100%;
+    min-height: 480px;
+
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link{
+    max-width: 320px;
+    width: 100%;
+    min-height: 200px;
+  }
 }
