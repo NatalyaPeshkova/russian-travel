@@ -20,7 +20,8 @@
 
 @media screen and (min-width: 1280px) {
   .places{
-    width: 100%;argin: 0 148px 0;
+    width: 100%;
+    margin: 0 148px 0;
    }
 }
 
