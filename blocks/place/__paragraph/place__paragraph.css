@@ -2,7 +2,6 @@
   font-size: 18px;
   font-weight: normal;
   max-width: 456px;
-
   line-height: 163%;
   -webkit-margin-before: 0;
   margin-block-start: 0;
@@ -23,7 +22,6 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     max-width: 484px;
-    width: 90%;
   }
 }
 
