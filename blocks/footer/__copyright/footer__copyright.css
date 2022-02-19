@@ -21,3 +21,10 @@
   color: white;
   font-size: 14px;
 }
+
+
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+   margin-top: 48px;
+  }
+}

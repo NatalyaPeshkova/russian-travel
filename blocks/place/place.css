@@ -15,7 +15,13 @@
   flex-wrap: wrap;
   margin: 0;
   margin-bottom: 80px;
+  width: 100%;
 }
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
 
 @media screen and (min-width: 1024px) {
   .place {

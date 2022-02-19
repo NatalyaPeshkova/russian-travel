@@ -39,7 +39,7 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
     margin-top: 88px;
-    margin-bottom: 88px;
+    margin-bottom: 86px;
     max-width: 720px;
     padding: 0;
     box-sizing: border-box;
