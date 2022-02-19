@@ -6,16 +6,15 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-item-align:end;
-  align-self:flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
   max-width: 352px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 768px) {
-  .place__paragraphs{
+  .place__paragraphs {
     max-width: 352px;
   }
 }

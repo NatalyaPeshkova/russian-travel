@@ -1,4 +1,3 @@
-
 .place__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,26 +25,26 @@
   margin-right: 40px;
 }
 
-.place__title::first-line{
+.place__title::first-line {
   padding-right: 50px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) {
-  .place__title{
+  .place__title {
     max-width: 460px;
   }
 }
 
 @media screen and (max-width: 950px) {
-  .place__title{
+  .place__title {
     max-width: 400px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__title{
+  .place__title {
     width: 340px;
     font-size: 42px;
     line-height: 46px;
@@ -53,12 +52,12 @@
   }
 }
 
-@media screen and (max-width: 425px){
-  .place__title{
+@media screen and (max-width: 425px) {
+  .place__title {
     max-width: 320px;
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 32px;
     margin-left: 16px;
- }
+  }
 }

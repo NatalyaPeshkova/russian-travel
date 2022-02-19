@@ -17,21 +17,21 @@
 }
 
 
-@media screen and (min-width: 1025px) {
-  .intro__title{
+/*@media screen and (min-width: 1025px) {
+  .intro__title {
     font-size: 54px;
   }
 }
 
 
 @media screen and (max-width: 1024px) {
-  .intro__title{
+  .intro__title {
     font-size: 54px;
-   }
-}
+  }
+}*/
 
 @media screen and (max-width: 500px) {
-  .intro__title{
+  .intro__title {
     font-size: 32px;
-   }
+  }
 }

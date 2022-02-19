@@ -12,16 +12,16 @@
   margin-right: 18px;
 }
 
-.header__link:active{
+.header__link:active {
   text-decoration: underline;
 }
 
-.header__link:hover{
+.header__link:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 425px) {
-  .header__link{
+  .header__link {
     font-size: 18px;
     line-height: 20px;
   }

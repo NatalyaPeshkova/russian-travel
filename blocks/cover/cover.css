@@ -12,18 +12,18 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
-  min-height: 640px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   color: white;
   position: relative;
   z-index: 0;
   margin-bottom: 92px;
+  width: 100%;
+  min-height: 640px;
 }
 
-.cover::before{
+.cover::before {
   position: absolute;
   content: "";
   left: 0;
@@ -42,10 +42,17 @@
   opacity: .8;
 }
 
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1185px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (max-width: 1280px) {
-  .cover{
+  .cover {
     max-width: 1184px;
-    width: 100%;
     min-height: 740px;
     margin-left: auto;
     margin-right: auto;
@@ -54,19 +61,14 @@
 }
 
 @media screen and (max-width: 1185px) {
-  .cover{
-    max-width: 1024px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 92px;
+  .cover {
+    max-width: 1025px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .cover{
+  .cover {
     max-width: 1024px;
-    width: 100%;
     min-height: 640px;
     margin-left: 0;
     margin-right: 0;
@@ -74,21 +76,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .cover{
+  .cover {
     max-width: 768px;
-    width: 100%;
     min-height: 480px;
-    margin-top: calc( 92px - 73px );
+    margin-top: calc(92px - 73px);
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .cover{
+  .cover {
     max-width: 320px;
     width: 95%;
     margin-bottom: 64px;
     min-height: 200px;
-    margin-top: calc(64px - 50px );
+    margin-top: calc(64px - 50px);
   }
 }

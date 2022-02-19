@@ -19,23 +19,21 @@
 
 
 @media screen and (min-width: 819px) {
-  .website{
+  .website {
     width: 352px;
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .website{
+  .website {
     width: 352px;
     margin: 0;
     margin-bottom: 48px;
   }
 }
 
-
 @media screen and (max-width: 425px) {
-  .website{
+  .website {
     width: 288px;
     margin: 0;
     margin-left: 16px;
