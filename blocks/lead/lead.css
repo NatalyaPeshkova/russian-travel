@@ -20,7 +20,6 @@
 @media screen and (min-width: 1280px) {
   .lead {
     margin: 56px 148px 92px;
-    max-width: 984px;
   }
 }
 
@@ -35,7 +34,6 @@
 @media screen and (max-width: 1024px) {
   .lead {
     margin: 42px 48px 92px;
-    max-width: 928px;
   }
 }
 

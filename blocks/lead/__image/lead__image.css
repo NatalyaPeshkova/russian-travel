@@ -37,8 +37,6 @@
   .lead__image {
     max-width: 99%;
     height: 99%;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
@@ -46,7 +44,5 @@
   .lead__image {
     max-width: 320px;
     height: 200px;
-    margin-left: 0;
-    margin-right: 0;
   }
 }

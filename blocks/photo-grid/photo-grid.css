@@ -9,6 +9,7 @@
   margin-right: auto;
   margin-bottom: 105px;
   justify-content: center;
+  align-self: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -17,10 +18,7 @@
     grid-template-rows: repeat(3, auto);
     max-width: 1184px;
     margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 92px;
-    align-self: center;
   }
 }
 
@@ -31,7 +29,6 @@
     max-width: 928px;
     width: 95%;
     margin: 88px auto 88px;
-    align-self: center;
     padding: 0;
     box-sizing: border-box;
   }
@@ -41,10 +38,9 @@
   .photo-grid {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
-    margin: 88px auto 88px;
-    align-self: center;
+    margin-top: 88px;
+    margin-bottom: 88px;
     max-width: 720px;
-    width: 95%;
     padding: 0;
     box-sizing: border-box;
   }
@@ -57,10 +53,7 @@
     max-width: 99%;
     width: 90%;
     margin-top: 64px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 64px;
-    align-self: center;
   }
 }
 
@@ -69,11 +62,5 @@
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(12, auto);
     max-width: 288px;
-    width: 95%;
-    margin-top: 64px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 64px;
-    align-self: center;
   }
 }

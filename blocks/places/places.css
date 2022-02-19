@@ -10,7 +10,10 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0 42px 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 42px;
+  margin-right: 42px;
   line-height: normal;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -20,7 +23,8 @@
 @media screen and (min-width: 1280px) {
   .places {
     width: 100%;
-    margin: 0 148px 0;
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }
 
@@ -34,7 +38,8 @@
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
-    margin: 0 59px 0 37px;
+    margin-left: 37px;
+    margin-right: 59px;
   }
 }
 
@@ -47,8 +52,6 @@
 
 @media screen and (max-width: 950px) {
   .places {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 800px;
   }
 }
