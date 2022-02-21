@@ -12,17 +12,30 @@
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  max-width: 456px;
   margin-bottom: 35px;
+  width: 100%;
 }
 
-
-
-@media screen and (min-width: 819px) {
+@media screen and (max-width: 1280px) {
   .website {
-    width: 352px;
+    max-width: 460px;
   }
 }
+
+
+@media screen and (max-width: 1024px) {
+  .website {
+    max-width: 456px;
+  }
+}
+
+
+/*@media screen and (min-width: 819px) {
+  .website {
+    max-width: 352px;
+  }
+}*/
+
 
 @media screen and (max-width: 768px) {
   .website {

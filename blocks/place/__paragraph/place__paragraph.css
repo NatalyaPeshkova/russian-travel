@@ -1,7 +1,7 @@
 .place__paragraph {
   font-size: 18px;
   font-weight: normal;
-  max-width: 456px;
+  width: 100%;
   line-height: 163%;
   -webkit-margin-before: 0;
   margin-block-start: 0;
@@ -13,24 +13,36 @@
   margin-inline-end: 0px;
   margin-bottom: 26px;
   margin-right: 0;
-  margin-left: 32px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: start;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1280px) {
   .place__paragraph {
-    max-width: 484px;
+    max-width: 460px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+/*@media screen and (max-width: 950px) {
   .place__paragraph {
     max-width: 360px;
 
   }
-}
+}*/
+
+/*@media screen and (min-width: 819px) {
+  .place__paragraph {
+    max-width: 352px;
+  }
+}*/
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
@@ -39,12 +51,12 @@
   }
 }
 
-@media screen and (min-width: 425px) {
+/*@media screen and (min-width: 425px) {
   .place__paragraph {
     padding: 0;
     margin-left: 0;
   }
-}
+}*/
 
 @media screen and (max-width: 425px) {
   .place__paragraph {

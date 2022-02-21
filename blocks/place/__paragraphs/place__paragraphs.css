@@ -18,3 +18,31 @@
     max-width: 352px;
   }
 }
+
+
+
+@media screen and (max-width: 1280px) {
+  .place__paragraphs {
+    max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    max-width: 352px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .place__paragraps {
+    max-width: 288px;
+  }
+}
