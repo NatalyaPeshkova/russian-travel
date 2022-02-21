@@ -10,7 +10,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   color: white;
-  /*max-width: 928px;*/
+  max-width: 984px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0;
@@ -25,8 +25,6 @@
 @media screen and (max-width: 1280px) {
   .place {
     max-width: 984px;
-    margin-left: 148px;
-    margin-right: 148px;
   }
 }
 
@@ -39,24 +37,46 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: 928px;
+    width: 928px;
   }
 }
 
 
+@media screen and (max-width: 1000px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .place {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
-    margin: 0;
     margin-bottom: 73px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .place {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .place {
+    max-width: 425px;
   }
 }
 
@@ -64,5 +84,6 @@
   .place {
     max-width: 320px;
     margin-bottom: 50px;
+    justify-content: flex-start;
   }
 }

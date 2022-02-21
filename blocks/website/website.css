@@ -13,7 +13,7 @@
   -ms-flex-align: start;
   align-items: flex-start;
   margin-bottom: 35px;
-  width: 100%;
+  width: 460px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -30,18 +30,37 @@
 }
 
 
-/*@media screen and (min-width: 819px) {
+@media screen and (max-width: 1000px) {
+  .website {
+    max-width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
   .website {
     max-width: 352px;
-  }
-}*/
-
-
-@media screen and (max-width: 768px) {
-  .website {
-    width: 352px;
     margin: 0;
     margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .website {
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .website {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .website {
+    width: 200px;
+    margin-left: 10px;
   }
 }
 

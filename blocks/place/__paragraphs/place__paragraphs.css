@@ -8,18 +8,10 @@
   flex-direction: column;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  max-width: 352px;
+  max-width: 460px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-@media screen and (max-width: 768px) {
-  .place__paragraphs {
-    max-width: 352px;
-  }
-}
-
-
 
 @media screen and (max-width: 1280px) {
   .place__paragraphs {
@@ -34,15 +26,40 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+  .place__paragraphs {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 950px) {
   .place__paragraphs {
     max-width: 352px;
   }
 }
 
+@media screen and (max-width: 750px) {
+  .place__paragraphs {
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraphs {
+    max-width: 220px;
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+  .place__paragraps {
+    max-width: 200px;
+  }
+}
 
 @media screen and (max-width: 425px) {
-  .place__paragraps {
+  .place__paragraphs {
     max-width: 288px;
+    margin-left: 16px;
   }
 }

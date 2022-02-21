@@ -31,32 +31,40 @@
   }
 }
 
-/*@media screen and (max-width: 950px) {
+
+@media screen and (max-width: 1000px) {
   .place__paragraph {
-    max-width: 360px;
-
+    max-width: 440px;
   }
-}*/
+}
 
-/*@media screen and (min-width: 819px) {
-  .place__paragraph {
-    max-width: 352px;
-  }
-}*/
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
   }
 }
 
-/*@media screen and (min-width: 425px) {
+@media screen and (max-width: 750px) {
   .place__paragraph {
-    padding: 0;
-    margin-left: 0;
+    max-width: 280px;
+    font-size: 14px;
   }
-}*/
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraph {
+    max-width: 220px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .place__paragraph {
+    width: 200px;
+  }
+}
+
 
 @media screen and (max-width: 425px) {
   .place__paragraph {

@@ -9,8 +9,7 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-  max-width: 440px;
-  width: 50%;
+  max-width: 460px;
   text-align: left;
   -webkit-margin-before: 0;
   margin-block-start: 0;
@@ -21,7 +20,7 @@
   -webkit-margin-end: 0;
   margin-inline-end: 0;
   margin-bottom: 48px;
-  margin-right: 40px;
+  box-sizing: border-box;
 }
 
 .place__title::first-line {
@@ -30,24 +29,63 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1280px) {
   .place__title {
-    max-width: 460px;
+    width: 460px;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .place__title {
+    width: 460px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: 440px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__title {
+    width: 400px;
   }
 }
 
 @media screen and (max-width: 950px) {
   .place__title {
-    max-width: 400px;
+    width: 340px;
+    margin-right: 28px;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .place__title {
-    width: 340px;
-    font-size: 42px;
-    line-height: 46px;
-    margin-right: 28px;
+    max-width: 280px;
+    margin-right: 10px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__title {
+    max-width: 250px;
+    margin-right: 10px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .place__title {
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 0;
   }
 }
 
