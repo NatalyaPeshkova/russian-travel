@@ -6,8 +6,8 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+
+
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;

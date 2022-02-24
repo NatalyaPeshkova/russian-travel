@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 1280px) {
   .place__paragraph {
-    max-width: 460px;
+    max-width: 484px;
   }
 }
 
@@ -69,5 +69,6 @@
 @media screen and (max-width: 425px) {
   .place__paragraph {
     max-width: 288px;
+    font-size: 16px;
   }
 }

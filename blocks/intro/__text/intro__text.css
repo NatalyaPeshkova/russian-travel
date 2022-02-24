@@ -18,21 +18,18 @@
 @media screen and (max-width: 768px) {
   .intro__text {
     max-width: 720px;
-    width: 95%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .intro__text {
     max-width: 490px;
-    width: 90%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro__text {
     max-width: 320px;
-    width: 95%;
   }
 }
 
@@ -40,7 +37,6 @@
 @media screen and (max-width: 425px) {
   .intro__text {
     max-width: 288px;
-    width: 95%;
     margin-bottom: 34px;
   }
 }
