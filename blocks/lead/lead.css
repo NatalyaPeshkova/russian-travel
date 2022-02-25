@@ -13,11 +13,12 @@
   -ms-flex-align: center;
   align-items: center;
   color: white;
-  margin: 48px 48px 92px;
+  margin-top: 48px;
+  margin-bottom: 92px;
   max-width: 984px;
 }
 
-@media screen and (min-width: 1280px) {
+/*@media screen and (min-width: 1280px) {
   .lead {
     margin: 56px 148px 92px;
   }
@@ -28,26 +29,30 @@
     margin-left: 148px;
     margin-right: 148px;
   }
-
-}
+}*/
 
 @media screen and (max-width: 1024px) {
   .lead {
     margin: 42px 48px 92px;
+    margin-top: 42px;
+    margin-bottom: 98px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    margin: 48px 24px 92px;
+    margin-bottom: 83px;
+    margin-left: 0;
+    margin-right: 0;
     max-width: 768px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead {
-    margin: 48px 16px 64px;
+    /*margin: 48px 16px 64px;*/
     max-width: 320px;
   }
 }

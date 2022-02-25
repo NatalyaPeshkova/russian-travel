@@ -13,7 +13,7 @@
   text-align: center;
   font-weight: 900;
   max-width: 720px;
-  width: 90%;
+  width: 100%;
   margin-left: 0;
   margin-right: 0;
   -webkit-margin-before: 0;
@@ -23,10 +23,19 @@
   line-height: 100px;
 }
 
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
   .lead__title {
     max-width: 100%;
     font-size: 80px;
+  }
+}
+*/
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: 96px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 

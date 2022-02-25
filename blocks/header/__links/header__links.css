@@ -1,17 +1,24 @@
 .header__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-
-
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-inline-start: 0;
+  justify-content: space-between;
+  width: calc( 30px + 30px + 18px)
+}
+
+.header__links:first-child {
+  margin-right: 18px;
+}
+
+
+@media screen and (max-width: 425px) {
+  .header__links{
+    width: calc( 22px + 22px + 18px)
+  }
+
 }

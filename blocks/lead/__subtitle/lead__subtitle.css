@@ -5,20 +5,32 @@
   max-width: 640px;
   margin: 32px 192px 56px;
   font-weight: normal;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     width: 100%;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     margin-top: 32px;
     margin-left: 64px;
     margin-right: 64px;
     margin-bottom: 56px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 56px;
+  }
+}
+
+
 
 @media screen and (max-width: 425px) {
   .lead__subtitle {
