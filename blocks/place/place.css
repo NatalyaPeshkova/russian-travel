@@ -16,12 +16,12 @@
   margin: 0;
   margin-bottom: 80px;
   width: 100%;
+  border: solid 1px red;
 }
 
 .place:last-of-type {
   margin-bottom: 0;
 }
-
 
 
 @media screen and (max-width: 1280px) {
@@ -87,7 +87,7 @@
 @media screen and (max-width: 425px) {
   .place {
     max-width: 320px;
-    margin-bottom: 50px;
+    margin-bottom: calc( 50px - 25px);
     justify-content: flex-start;
   }
 }

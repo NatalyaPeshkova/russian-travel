@@ -24,3 +24,9 @@
     max-width: 158px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    width: 186px;
+  }
+}

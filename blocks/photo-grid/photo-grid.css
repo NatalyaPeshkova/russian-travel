@@ -10,6 +10,7 @@
   margin-bottom: 105px;
   justify-content: center;
   align-self: center;
+  border: solid 1px red;
 }
 
 @media screen and (min-width: 1280px) {
@@ -62,5 +63,6 @@
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(12, auto);
     max-width: 288px;
+    margin-bottom: calc( 69px - 12px );
   }
 }
