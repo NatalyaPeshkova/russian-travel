@@ -20,13 +20,13 @@
 @media screen and (max-width: 768px) {
   .intro__list {
     max-width: 720px;
-    width: 100%;
+    width: 99%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro__list {
     max-width: 288px;
-    width: 100%;
+    width: 99%;
   }
 }
