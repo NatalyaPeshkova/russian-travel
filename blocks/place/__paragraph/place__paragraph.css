@@ -49,6 +49,7 @@
   .place__paragraph {
     max-width: 280px;
     font-size: 14px;
+    margin-bottom: 25px;
   }
 }
 
