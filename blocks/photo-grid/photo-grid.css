@@ -18,7 +18,7 @@
     grid-template-rows: repeat(3, auto);
     max-width: 1184px;
     margin-top: 92px;
-    margin-bottom: 92px;
+    margin-bottom: calc( 92px - 16px );
   }
 }
 
@@ -27,8 +27,11 @@
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
     max-width: 928px;
-    width: 95%;
-    margin: 88px auto 88px;
+    width: 100%;
+    margin-top: 79px;
+    margin-bottom: calc( 105px - 14px );
+    margin-left: 48px;
+    margin-right: auto;
     padding: 0;
     box-sizing: border-box;
   }
