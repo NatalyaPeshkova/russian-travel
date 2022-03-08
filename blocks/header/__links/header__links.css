@@ -8,7 +8,7 @@
   margin-inline-end: 0;
   padding-inline-start: 0;
   justify-content: space-between;
-  width: calc( 30px + 30px + 18px)
+  width: calc( 30px + 30px + 18px);
 }
 
 .header__links:first-child {
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 425px) {
   .header__links{
-    width: calc( 22px + 22px + 18px)
+    width: calc( 22px + 22px + 18px);
   }
 
 }
